@@ -1,0 +1,32 @@
+# RAGRO 🚜
+
+RAGRO é um chatbot especializado em agricultura, desenvolvido utilizando a arquitetura RAG (Retrieval Augmented Generation). O sistema permite que usuários façam perguntas sobre agricultura e recebam respostas precisas baseadas em documentos e fontes confiáveis.
+
+## Funcionalidades
+
+- Interface de chat interativa usando Streamlit
+- Processamento de linguagem natural usando GPT-4
+- Recuperação de informações relevantes de uma base de conhecimento especializada
+- Citação das fontes utilizadas para cada resposta
+- Histórico de conversas mantido durante a sessão
+
+## Tecnologias Utilizadas
+
+- Python
+- Streamlit
+- LangChain
+- OpenAI GPT-4
+- Pinecone (para armazenamento de vetores)
+- Streamlit-chat
+
+## Como Executar
+
+1. Clone o repositório
+2. Instale as dependências
+3. Configure as variáveis de ambiente no arquivo `.env`
+4. Execute o aplicativo com `streamlit run main.py`
+
+## Variáveis de Ambiente Necessárias
+
+- `INDEX_NAME`: Nome do índice Pinecone
+- Demais credenciais necessárias para OpenAI e Pinecone
